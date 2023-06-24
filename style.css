@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 350px;
+    width: 350px;
+    background-image: linear-gradient(to bottom ,hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    border-radius: 45px;
+}
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    width: 308px;
+    text-align: center;
+}
+h2{
+    color: hsl(0,0%,100%);
+}
+.hidding{
+display: none;
+}
+/*debut part one*/
+.star{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+ul li{
+    display: inline;
+    margin-right: 10px;
+}
+ul li button{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 8%);
+    border: none;
+    border-radius: 50%;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+ul li button:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    
+}
+ul li button:focus{
+    background-color:hsl(217, 12%, 63%) ;
+}
+/*debut part one*/
+.part-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    display: none;
+
+}
+.class{
+    color: hsl(25, 97%, 53%);
+    height: 20px;
+    width: 180px;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    padding-top: 4px;
+    border-radius: 20px;
+}
+.text{
+    height: 20px;
+    color: hsl(25, 97%, 53%);
+    width: 175px;
+    text-align: center;
+    padding: 6px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#sumbit{
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0,0%,100%);
+    cursor: pointer; 
+   font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+#sumbit:hover{
+    background-color:hsl(0, 0%, 100%) ;
+    color: hsl(25, 97%, 53%);
+   
+}
+/*fin part one*/
