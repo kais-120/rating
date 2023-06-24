@@ -38,6 +38,9 @@ display: none;
     justify-content: center;
     align-items: center;
 }
+.part-one p{
+    text-align: left;
+}
 ul{
     list-style: none;
     padding-inline-start: 0;
@@ -62,7 +65,7 @@ ul li button:hover{
 ul li button:focus{
     background-color:hsl(217, 12%, 63%) ;
 }
-/*debut part one*/
+/*debut part two*/
 .part-two{
     display: flex;
     flex-direction: column;
@@ -109,4 +112,4 @@ ul li button:focus{
     color: hsl(25, 97%, 53%);
    
 }
-/*fin part one*/
+/*fin part two*/
